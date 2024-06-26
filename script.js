@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         async (position) => {
           const lat = position.coords.latitude;
           const lon = position.coords.longitude;
-          const apiKey = "2c8191931e79a30bb295ca14731841a9";
+          const apiKey = "your apiKey";
   
           const currentConditions = document.getElementById("current-conditions");
           const forecastData = document.getElementById("forecast-data");
